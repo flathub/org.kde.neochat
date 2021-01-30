@@ -19,6 +19,7 @@
         "--talk-name=org.kde.kwalletd5"
     ],
     "modules": [
+        "shared-modules/libsecret/libsecret.json",
         {
             "name": "qtkeychain",
             "buildsystem": "cmake-ninja",
@@ -29,6 +30,7 @@
             "config-opts": [
                 "-DCMAKE_INSTALL_LIBDIR=/app/lib",
                 "-DLIB_INSTALL_DIR=/app/lib",
+                "-DLIBSECRET_SUPPORT=ON",
                 "-DBUILD_TRANSLATIONS=NO"
             ],
             "sources": [
