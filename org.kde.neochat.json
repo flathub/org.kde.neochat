@@ -94,7 +94,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "tags": "293288a0b61c59587d58c295e8d4c9969adffa80",
+                    "commit": "293288a0b61c59587d58c295e8d4c9969adffa80",
                     "url": "https://invent.kde.org/network/neochat.git"
                 }
             ]
