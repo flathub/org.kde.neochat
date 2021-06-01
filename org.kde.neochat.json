@@ -58,6 +58,9 @@
             "name": "libqmatrixclient",
             "buildsystem": "cmake-ninja",
             "builddir": true,
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
             "cleanup": [
                 "/bin/qmc-example",
                 "/include",
@@ -94,8 +97,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/neochat/1.1.1/neochat-1.1.1.tar.xz",
-                    "sha256": "dcaecf35fadffe298d849955b39f5d193161df6d6388ce402b4207a24b06757b"
+                    "url": "https://download.kde.org/stable/neochat/1.2.0/neochat-1.2.0.tar.xz",
+                    "sha256": "8ee4b5f61db7d43c902115e0be01f2b587100183b382596473922e9a42749de6"
                 }
             ]
         }
