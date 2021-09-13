@@ -70,8 +70,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/quotient-im/libQuotient/archive/0.6.7.tar.gz",
-                    "sha256": "29143c56efb24525d168281fdb751531d69529f05e7e7d1b1121a1d64a504510"
+                    "url": "https://github.com/quotient-im/libQuotient/archive/0.6.9.tar.gz",
+                    "sha256": "ed474e6c13ac961d0c45794d52ddd7227002eff005894b3d3cc8efefafdf9625"
                 }
             ]
         },
