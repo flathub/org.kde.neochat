@@ -20,6 +20,17 @@
     ],
     "modules": [
         {
+            "buildsystem": "meson",
+            "name": "libsecret",
+            "config-opts": [
+                "-Dmanpage=false",
+                "-Dvapi=false",
+                "-Dgtk_doc=false",
+                "-Dintrospection=false",
+                "-Dgcrypt=false"
+            ]
+        },
+        {
             "name": "qtkeychain",
             "buildsystem": "cmake-ninja",
             "builddir": true,
