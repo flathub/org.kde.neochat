@@ -82,8 +82,20 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kquickimageeditor/0.1/kquickimageeditor-0.1.2.tar.xz",
-                    "sha256": "37d54981a1c7dbb48ca45a7df37b8871bf1751e4c0484eeaddc548804ee18a04"
+                    "url": "https://download.kde.org/stable/kquickimageeditor/kquickimageeditor-0.2.0.tar.xz",
+                    "sha256": "3cfba775498e031f6963669ee0e4426d4fddd48a244b9583620de4d312ba92ca"
+                }
+            ]
+        },
+        {
+            "name": "qcoro",
+            "buildsystem": "cmake-ninja",
+            "builddir": true,
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/danvratil/qcoro/archive/refs/tags/v0.3.0.tar.gz",
+                    "sha256": "610fcf621de0cf04597e2e308d1d22a7fce2a39eafa2d4827d1ff6c8b0e724c0"
                 }
             ]
         },
@@ -97,8 +109,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/neochat/1.2.0/neochat-1.2.0.tar.xz",
-                    "sha256": "8ee4b5f61db7d43c902115e0be01f2b587100183b382596473922e9a42749de6"
+                    "url": "https://download.kde.org/stable/plasma-mobile/21.12/neochat-21.12.tar.xz",
+                    "sha256": "8393147b95fda221dc99034c2e72d5f91d8ba85cf6f5f5d2d29734c85028ab8a"
                 }
             ]
         }
