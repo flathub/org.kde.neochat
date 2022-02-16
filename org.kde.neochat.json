@@ -109,8 +109,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/21.12/neochat-21.12.tar.xz",
-                    "sha256": "8393147b95fda221dc99034c2e72d5f91d8ba85cf6f5f5d2d29734c85028ab8a"
+                    "url": "https://download.kde.org/stable/plasma-mobile/22.02/neochat-22.02.tar.xz",
+                    "sha256": "be54a898ca1ac7be404be3d666859291669293ee1843917bf8cdcb385787609a"
                 }
             ]
         }
