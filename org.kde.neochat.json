@@ -32,7 +32,12 @@
                 {
                     "type": "archive",
                     "url": "https://gitlab.gnome.org/GNOME/libsecret/-/archive/0.20.5/libsecret-0.20.5.tar.gz",
-                    "sha256": "b33b9542222ea8866f6ff2d31c0ad373877c2277db546ca00cc7fdda9cbab1c3"
+                    "sha256": "b33b9542222ea8866f6ff2d31c0ad373877c2277db546ca00cc7fdda9cbab1c3",
+                    "x-checker-data": {
+                        "type": "gnome",
+                        "name": "libsecret",
+                        "stable-only": true
+                    }
                 }
             ]
         },
@@ -52,7 +57,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/frankosterfeld/qtkeychain/archive/v0.13.2.tar.gz",
-                    "sha256": "20beeb32de7c4eb0af9039b21e18370faf847ac8697ab3045906076afbc4caa5"
+                    "sha256": "20beeb32de7c4eb0af9039b21e18370faf847ac8697ab3045906076afbc4caa5",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 4138,
+                        "stable-only": true,
+                        "url-template": "https://github.com/frankosterfeld/qtkeychain/archive/v$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -67,12 +78,18 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/commonmark/cmark/archive/0.30.1.tar.gz",
-                    "sha256": "9609506bd7473e769452488ef981eb53f082011b1ec6c9b6c73ed57062e25ee6"
+                    "sha256": "9609506bd7473e769452488ef981eb53f082011b1ec6c9b6c73ed57062e25ee6",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 9159,
+                        "stable-only": true,
+                        "url-template": "https://github.com/commonmark/cmark/archive/$version.tar.gz"
+                    }
                 }
             ]
         },
         {
-            "name": "libqmatrixclient",
+            "name": "libquotient",
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "config-opts": [
@@ -88,7 +105,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/quotient-im/libQuotient/archive/0.6.11.tar.gz",
-                    "sha256": "12b15d1296e630477d5e8f4d32c821dc724b3c5b99d15d383417ba7d88f03c46"
+                    "sha256": "12b15d1296e630477d5e8f4d32c821dc724b3c5b99d15d383417ba7d88f03c46",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 89357,
+                        "stable-only": true,
+                        "url-template": "https://github.com/quotient-im/libQuotient/archive/$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -100,7 +123,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/kquickimageeditor/kquickimageeditor-0.2.0.tar.xz",
-                    "sha256": "3cfba775498e031f6963669ee0e4426d4fddd48a244b9583620de4d312ba92ca"
+                    "sha256": "3cfba775498e031f6963669ee0e4426d4fddd48a244b9583620de4d312ba92ca",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 229033,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/kquickimageeditor/kquickimageeditor-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -112,7 +141,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/danvratil/qcoro/archive/refs/tags/v0.3.0.tar.gz",
-                    "sha256": "610fcf621de0cf04597e2e308d1d22a7fce2a39eafa2d4827d1ff6c8b0e724c0"
+                    "sha256": "610fcf621de0cf04597e2e308d1d22a7fce2a39eafa2d4827d1ff6c8b0e724c0",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 236236,
+                        "stable-only": true,
+                        "url-template": "https://github.com/danvratil/qcoro/archive/refs/tags/v$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -127,7 +162,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/plasma-mobile/22.02/neochat-22.02.tar.xz",
-                    "sha256": "be54a898ca1ac7be404be3d666859291669293ee1843917bf8cdcb385787609a"
+                    "sha256": "be54a898ca1ac7be404be3d666859291669293ee1843917bf8cdcb385787609a",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 141434,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/plasma-mobile/$version/neochat-$version.tar.xz"
+                    }
                 }
             ]
         }
