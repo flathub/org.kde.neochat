@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/GNOME/libsecret/-/archive/0.20.5/libsecret-0.20.5.tar.gz",
-                    "sha256": "b33b9542222ea8866f6ff2d31c0ad373877c2277db546ca00cc7fdda9cbab1c3",
+                    "url": "https://download.gnome.org/sources/libsecret/0.20/libsecret-0.20.5.tar.xz",
+                    "sha256": "3fb3ce340fcd7db54d87c893e69bfc2b1f6e4d4b279065ffe66dac9f0fd12b4d",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "libsecret",
@@ -77,8 +77,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/commonmark/cmark/archive/0.30.1.tar.gz",
-                    "sha256": "9609506bd7473e769452488ef981eb53f082011b1ec6c9b6c73ed57062e25ee6",
+                    "url": "https://github.com/commonmark/cmark/archive/0.30.2.tar.gz",
+                    "sha256": "6c7d2bcaea1433d977d8fed0b55b71c9d045a7cdf616e3cd2dce9007da753db3",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 9159,
@@ -140,8 +140,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/danvratil/qcoro/archive/refs/tags/v0.3.0.tar.gz",
-                    "sha256": "610fcf621de0cf04597e2e308d1d22a7fce2a39eafa2d4827d1ff6c8b0e724c0",
+                    "url": "https://github.com/danvratil/qcoro/archive/refs/tags/v0.4.0.tar.gz",
+                    "sha256": "0e68b3f0ce7bf521ffbdd731464d2d60d8d7a39a749b551ed26855a1707d86d1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 236236,
