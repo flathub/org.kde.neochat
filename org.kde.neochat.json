@@ -140,8 +140,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/danvratil/qcoro/archive/refs/tags/v0.4.0.tar.gz",
-                    "sha256": "0e68b3f0ce7bf521ffbdd731464d2d60d8d7a39a749b551ed26855a1707d86d1",
+                    "url": "https://github.com/danvratil/qcoro/archive/refs/tags/v0.5.0.tar.gz",
+                    "sha256": "b9e28379af83d608bd42a92bb4e53e8d125d8c970f526620bc4963d3f6399432",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 236236,
@@ -161,8 +161,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/22.02/neochat-22.02.tar.xz",
-                    "sha256": "be54a898ca1ac7be404be3d666859291669293ee1843917bf8cdcb385787609a",
+                    "url": "https://download.kde.org/stable/plasma-mobile/22.04/neochat-22.04.tar.xz",
+                    "sha256": "a836995ec04307864a8023e0dc03d637ff2db89e75948eb85252262e8a9d2112",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 141434,
