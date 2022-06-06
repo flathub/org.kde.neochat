@@ -26,7 +26,8 @@
                 "-Dmanpage=false",
                 "-Dvapi=false",
                 "-Dgtk_doc=false",
-                "-Dintrospection=false"
+                "-Dintrospection=false",
+                "-Dgcrypt=false"
             ],
             "sources": [
                 {
