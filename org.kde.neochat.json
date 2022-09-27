@@ -162,8 +162,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/22.06/neochat-22.06.tar.xz",
-                    "sha256": "b6f124e04792a5ba3afe701ea9783640c2b203c4664e28cfb2142f00079b9d9b",
+                    "url": "https://download.kde.org/stable/plasma-mobile/22.09/neochat-22.09.tar.xz",
+                    "sha256": "9135cc31196394dafbdff0ff011aef176b365036c226b6a4cc33e084763517c9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 141434,
