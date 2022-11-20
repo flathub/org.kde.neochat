@@ -141,8 +141,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/danvratil/qcoro/archive/refs/tags/v0.6.0.tar.gz",
-                    "sha256": "26d6ea1103c51b895e93d27b59bee394f80db8fd9ca21e7c0056583b1938906d",
+                    "url": "https://github.com/danvratil/qcoro/archive/refs/tags/v0.7.0.tar.gz",
+                    "sha256": "23ef0217926e67c8d2eb861cf91617da2f7d8d5a9ae6c62321b21448b1669210",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 236236,
