@@ -20,6 +20,22 @@
     ],
     "modules": [
         {
+            "name": "olm",
+            "buildsystem": "cmake-ninja",
+            "builddir": true,
+            "config-opts": [
+                "-DCMAKE_BUILD_TYPE=Release"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://gitlab.matrix.org/matrix-org/olm.git",
+                    "commit": "92769cec711c604a1f682b95d6944578d2a1bb3d",
+                    "tag": "3.2.12"
+                }
+            ]
+        },
+        {
             "name": "libsecret",
             "buildsystem": "meson",
             "config-opts": [
