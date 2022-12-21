@@ -111,7 +111,7 @@
             "builddir": true,
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
-                "-DQuotient_ENABLE_E2EE=ON"
+                "-DQuotient_ENABLE_E2EE=OFF"
             ],
             "cleanup": [
                 "/bin/qmc-example",
