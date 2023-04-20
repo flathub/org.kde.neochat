@@ -176,8 +176,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.6.tar.xz",
-                    "sha256": "2fc18d25ad684d5fec260b872c3320068290c59abab50e26a61811ca8bd5882f"
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.8.tar.xz",
+                    "sha256": "3741a940fa688f53c7d9bdf607b1c6991f6d690e9ce826e8c76794336c594bcf"
                 }
             ]
         },
@@ -191,13 +191,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/23.01.0/neochat-23.01.0.tar.xz",
-                    "sha256": "4dfb8b5c931ab440491ca511d84a493ec658ca3c4aedd4358131780e39d26a5e",
+                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/neochat-23.04.0.tar.xz",
+                    "sha256": "ba409ae23fe27454d06cfd97529527be1676460bb3f503c7f1bdf55423aed7a8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 141434,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/plasma-mobile/$version/neochat-$version.tar.xz"
+                        "url-template": ""https://download.kde.org/stable/release-service/$version/src/neochat-$version.tar.xz"
                     }
                 }
             ]
