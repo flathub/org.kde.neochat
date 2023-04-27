@@ -122,8 +122,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/quotient-im/libQuotient/archive/0.7.1.tar.gz",
-                    "sha256": "48b15c666528405219ff0be8f0f336405c64deb1719115af75ef099cb3f86555",
+                    "url": "https://github.com/quotient-im/libQuotient/archive/0.7.2.tar.gz",
+                    "sha256": "62ff42c8fe321e582ce8943417c1d815ab3f373a26fa0d99a5926e713f6a9382",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 89357,
