@@ -191,8 +191,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/neochat-23.04.0.tar.xz",
-                    "sha256": "ba409ae23fe27454d06cfd97529527be1676460bb3f503c7f1bdf55423aed7a8",
+                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/neochat-23.04.1.tar.xz",
+                    "sha256": "c700bda4e00d87030b8b8f1524f8854f45ccae6d2bd81941a90641e3dfc1a5fa",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 141434,
