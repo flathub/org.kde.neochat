@@ -74,13 +74,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/frankosterfeld/qtkeychain/archive/v0.14.0.tar.gz",
-                    "sha256": "ad78f2d9e0a5ee80f40cbaace4f55d11c2557bc6e930cf4a9479e39a7d78bb60",
+                    "url": "https://github.com/frankosterfeld/qtkeychain/archive/0.14.1.tar.gz",
+                    "sha256": "afb2d120722141aca85f8144c4ef017bd74977ed45b80e5d9e9614015dadd60c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 4138,
                         "stable-only": true,
-                        "url-template": "https://github.com/frankosterfeld/qtkeychain/archive/v$version.tar.gz"
+                        "url-template": "https://github.com/frankosterfeld/qtkeychain/archive/$version.tar.gz"
                     }
                 }
             ]
@@ -198,8 +198,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/neochat-23.04.1.tar.xz",
-                    "sha256": "c700bda4e00d87030b8b8f1524f8854f45ccae6d2bd81941a90641e3dfc1a5fa",
+                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/neochat-23.04.2.tar.xz",
+                    "sha256": "f422ed5ea1b7df39817fd1ffd2da2b8fa2da65b7bdfc2a34e57912b012af0960",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 141434,
