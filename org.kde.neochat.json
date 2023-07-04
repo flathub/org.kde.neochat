@@ -123,8 +123,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/quotient-im/libQuotient/archive/0.7.2.tar.gz",
-                    "sha256": "62ff42c8fe321e582ce8943417c1d815ab3f373a26fa0d99a5926e713f6a9382",
+                    "url": "https://github.com/quotient-im/libQuotient/archive/0.8.0.tar.gz",
+                    "sha256": "40d84c2a1ed8c57605836dd175aabd069aed33c77b6bd841391631607b8c3a76",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 89357,
@@ -177,8 +177,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.8.0.tar.xz",
-                    "sha256": "3741a940fa688f53c7d9bdf607b1c6991f6d690e9ce826e8c76794336c594bcf",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.9.0.tar.xz",
+                    "sha256": "56d8073cd9797d4adf5a75f5dc0d2385fc2e896ab6e6106131a6f0d6a976d8a2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
