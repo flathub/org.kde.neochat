@@ -123,8 +123,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/quotient-im/libQuotient/archive/0.7.2.tar.gz",
-                    "sha256": "62ff42c8fe321e582ce8943417c1d815ab3f373a26fa0d99a5926e713f6a9382",
+                    "url": "https://github.com/quotient-im/libQuotient/archive/0.8.0.tar.gz",
+                    "sha256": "40d84c2a1ed8c57605836dd175aabd069aed33c77b6bd841391631607b8c3a76",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 89357,
@@ -206,6 +206,14 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/neochat-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-Pick-libQuotient-0.8-fixes.patch"
+                },
+                                {
+                    "type": "patch",
+                    "path": "0002-Always-enable-E2EE-in-libQuotient.patch"
                 }
             ]
         }
