@@ -198,14 +198,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/unstable/release-service/23.07.80/src/neochat-23.07.80.tar.xz",
-                    "sha256": "fc2aded46750f71781428ce77aa9e35f5518dc93fd754f6454c74cbb1eac865e",
+                    "url": "https://download.kde.org/unstable/release-service/23.07.90/src/neochat-23.07.90.tar.xz",
+                    "sha256": "eb5ccff9b71ef0fa15e608d282b18f60baa3e099f28d9d9f1356daa64a641678",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 368663,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/unstable/release-service/$version/src/neochat-$version.tar.xz"
-                     }
+                    }
                 }
             ]
         }
