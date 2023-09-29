@@ -8,7 +8,6 @@
     "finish-args": [
         "--device=dri",
         "--filesystem=xdg-download",
-        "--own-name=org.kde.*",
         "--share=ipc",
         "--share=network",
         "--socket=fallback-x11",
