@@ -146,8 +146,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kquickimageeditor/kquickimageeditor-0.3.0.tar.xz",
-                    "sha256": "330ebf3653883eeebde54385d783c51c2d30ff77d41b294ece79af7e9c21c6f8",
+                    "url": "https://download.kde.org/stable/kquickimageeditor/kquickimageeditor-0.4.0.tar.xz",
+                    "sha256": "d853894811d350fae499c67ebaafb2cc252d3c818b89fcf71757bc34f541a3fb",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 229033,
