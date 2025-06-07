@@ -213,10 +213,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/neochat-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "handle-stickers-in-contentmodelrole.patch"
                 }
             ]
         }
