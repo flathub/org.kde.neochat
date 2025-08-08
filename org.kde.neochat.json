@@ -31,10 +31,15 @@
             ],
             "sources": [
                 {
-                    "type": "git",
-                    "url": "https://gitlab.matrix.org/matrix-org/olm.git",
-                    "commit": "92769cec711c604a1f682b95d6944578d2a1bb3d",
-                    "tag": "3.2.12"
+                    "type": "archive",
+                    "url": "https://gitlab.matrix.org/matrix-org/olm/-/archive/3.2.16/olm-3.2.16.tar.gz",
+                    "sha256": "1e90f9891009965fd064be747616da46b232086fe270b77605ec9bda34272a68",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 29706,
+                        "stable-only": true,
+                        "url-template": "https://gitlab.matrix.org/matrix-org/olm/-/archive/$version/olm-$version.tar.gz"
+                    }
                 }
             ]
         },
