@@ -21,6 +21,19 @@
         "--talk-name=org.kde.kwalletd6",
         "--talk-name=org.kde.kuiserver"
     ],
+    "cleanup": [
+        "/bin/cmark",
+        "/bin/kunifiedpush-distributor",
+        "/bin/secret-tool",
+        "/include",
+        "/lib/*.a",
+        "/lib/cmake",
+        "/lib/pkgconfig",
+        "/lib/plugins",
+        "/share/app-info",
+        "/share/kdevappwizard",
+        "/share/man/*/cmark*"
+    ],
     "modules": [
         {
             "name": "olm",
