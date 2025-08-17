@@ -53,10 +53,6 @@
                         "stable-only": true,
                         "url-template": "https://gitlab.matrix.org/matrix-org/olm/-/archive/$version/olm-$version.tar.gz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "revert-usage-of-newer-kirigami-api.patch"
                 }
             ]
         },
@@ -236,6 +232,10 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/neochat-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "revert-usage-of-newer-kirigami-api.patch"
                 }
             ]
         }
