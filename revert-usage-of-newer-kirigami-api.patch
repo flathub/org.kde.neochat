@@ -1,8 +1,8 @@
 diff --git a/src/app/qml/Main.qml b/src/app/qml/Main.qml
-index ea8955674..6eed271c1 100644
+index 2ccb8f1ff..4388a7e46 100644
 --- a/src/app/qml/Main.qml
 +++ b/src/app/qml/Main.qml
-@@ -45,7 +45,6 @@ Kirigami.ApplicationWindow {
+@@ -41,7 +41,6 @@ Kirigami.ApplicationWindow {
              showExisting: true
              onConnectionChosen: root.load()
          }
@@ -11,7 +11,7 @@ index ea8955674..6eed271c1 100644
          globalToolBar {
              style: Kirigami.ApplicationHeaderStyle.ToolBar
 diff --git a/src/rooms/RoomListPage.qml b/src/rooms/RoomListPage.qml
-index 2ac211fd5..f5586d789 100644
+index 9cae9f414..6f15c860c 100644
 --- a/src/rooms/RoomListPage.qml
 +++ b/src/rooms/RoomListPage.qml
 @@ -17,22 +17,13 @@ import org.kde.neochat
@@ -55,7 +55,7 @@ index 2ac211fd5..f5586d789 100644
      onCollapsedChanged: {
          if (collapsed) {
              RoomManager.sortFilterRoomTreeModel.filterText = "";
-@@ -252,6 +247,49 @@ Kirigami.Page {
+@@ -249,6 +244,49 @@ Kirigami.Page {
          sourceComponent: Kirigami.Settings.isMobile ? exploreComponentMobile : userInfoDesktop
      }
  
