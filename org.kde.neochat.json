@@ -53,6 +53,10 @@
                         "stable-only": true,
                         "url-template": "https://gitlab.matrix.org/matrix-org/olm/-/archive/$version/olm-$version.tar.gz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "olm_cmake.patch"
                 }
             ]
         },
