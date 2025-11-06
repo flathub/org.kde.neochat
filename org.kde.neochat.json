@@ -183,8 +183,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/kunifiedpush-25.08.2.tar.xz",
-                    "sha256": "2a5c6a1a307474ca9502b79a65fd1cf4662182e0831a47d038b0640c20578832",
+                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/kunifiedpush-25.08.3.tar.xz",
+                    "sha256": "e8c924438d5359f0fa0930ab35111012076e3a0ff4e959d6929595571383320a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -204,8 +204,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/neochat-25.08.2.tar.xz",
-                    "sha256": "5439247c9b674f6fd4f7240e9498adc21972c6fc35042aebb342bcfcaf3843f5",
+                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/neochat-25.08.3.tar.xz",
+                    "sha256": "5fad96472a0b577a9f2bd7cc55ed7f6f481c448bf776e3d596ca0957afcc8c35",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 141434,
