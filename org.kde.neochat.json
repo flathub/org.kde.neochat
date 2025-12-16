@@ -147,8 +147,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kquickimageeditor/kquickimageeditor-0.5.1.tar.xz",
-                    "sha256": "f08271f368ead077fa3ed95c32446dd873f8b371d9756aefb757bea323339b29",
+                    "url": "https://download.kde.org/stable/kquickimageeditor/kquickimageeditor-0.6.0.tar.xz",
+                    "sha256": "11ed4ce1c164a8b6d50bbc1548b5849ab75d5fb837619b90f2cea51ed122547a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 229033,
@@ -165,8 +165,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/kunifiedpush-25.08.2.tar.xz",
-                    "sha256": "2a5c6a1a307474ca9502b79a65fd1cf4662182e0831a47d038b0640c20578832",
+                    "url": "https://download.kde.org/stable/release-service/25.12.0/src/kunifiedpush-25.12.0.tar.xz",
+                    "sha256": "37591d1dd1291678e0d34470ecfa7f6cf188a3723ab0db117042d11d43b60ffe",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -186,8 +186,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/neochat-25.08.2.tar.xz",
-                    "sha256": "5439247c9b674f6fd4f7240e9498adc21972c6fc35042aebb342bcfcaf3843f5",
+                    "url": "https://download.kde.org/stable/release-service/25.12.0/src/neochat-25.12.0.tar.xz",
+                    "sha256": "a52d1202d53da1bba99d56b7d048638e40e81675cf7737591a9da4da7e27fefc",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 141434,
