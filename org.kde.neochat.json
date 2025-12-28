@@ -113,9 +113,7 @@
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "config-opts": [
-                "-DBUILD_TESTING=OFF",
-                "-DQuotient_ENABLE_E2EE=ON",
-                "-DBUILD_WITH_QT6=ON"
+                "-DBUILD_TESTING=OFF"
             ],
             "cleanup": [
                 "/bin/qmc-example",
@@ -134,6 +132,10 @@
                         "stable-only": true,
                         "url-template": "https://github.com/quotient-im/libQuotient/archive/$version.tar.gz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-Find-QtCorePrivate.patch"
                 }
             ]
         },
@@ -194,10 +196,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/neochat-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "revert-usage-of-newer-kirigami-api.patch"
                 }
             ]
         }
