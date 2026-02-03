@@ -30,9 +30,11 @@
         "/lib/cmake",
         "/lib/pkgconfig",
         "/lib/plugins",
+        "/mkspecs",
         "/share/app-info",
         "/share/kdevappwizard",
-        "/share/man/*/cmark*"
+        "/share/man",
+        "/share/qlogging-categories6"
     ],
     "modules": [
         {
