@@ -99,8 +99,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/commonmark/cmark/archive/0.31.1.tar.gz",
-                    "sha256": "3da93db5469c30588cfeb283d9d62edfc6ded9eb0edc10a4f5bbfb7d722ea802",
+                    "url": "https://github.com/commonmark/cmark/archive/0.31.2.tar.gz",
+                    "sha256": "f9bc5ca38bcb0b727f0056100fac4d743e768872e3bacec7746de28f5700d697",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 9159,
@@ -126,8 +126,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/quotient-im/libQuotient/archive/0.9.5.tar.gz",
-                    "sha256": "24366dd59aca7b991756e45c3c8823c43fc6a8fdb161ea6dcce5b666c6300766",
+                    "url": "https://github.com/quotient-im/libQuotient/archive/0.9.6.tar.gz",
+                    "sha256": "67a286a36343b9b3a02e95d52985f8042aee70f8a12a7513b9f5cb68e1a85721",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 89357,
