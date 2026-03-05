@@ -126,8 +126,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/quotient-im/libQuotient/archive/0.9.6.tar.gz",
-                    "sha256": "67a286a36343b9b3a02e95d52985f8042aee70f8a12a7513b9f5cb68e1a85721",
+                    "url": "https://github.com/quotient-im/libQuotient/archive/0.9.6.1.tar.gz",
+                    "sha256": "ac0fe5df480fa893d3e16da626bf5028c944e9b41f504f6fe0fe49273247d636",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 89357,
@@ -190,8 +190,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/neochat-25.12.2.tar.xz",
-                    "sha256": "e97c89c39628eb77977135b42f774353c0c05f74759fd3b7eed17f042c4fb626",
+                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/neochat-25.12.3.tar.xz",
+                    "sha256": "58f7a58d577466277ed96be7ca10481c52645241400afafd49ba8dc46120a6d9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 141434,
