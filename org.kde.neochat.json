@@ -169,8 +169,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/kunifiedpush-25.12.2.tar.xz",
-                    "sha256": "e111dd53c7a77bfc32f358375b9649ed418d9c5acd9c44b95ec5a07c9c2078b9",
+                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kunifiedpush-25.12.3.tar.xz",
+                    "sha256": "3ebd6ef38fafb0abd3ec434ccf79468453ea53897f69dccf18226dd5f122c229",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
