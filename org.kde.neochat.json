@@ -193,6 +193,7 @@
                     "url": "https://download.kde.org/stable/release-service/25.12.3/src/neochat-25.12.3.tar.xz",
                     "sha256": "58f7a58d577466277ed96be7ca10481c52645241400afafd49ba8dc46120a6d9",
                     "x-checker-data": {
+                        "is-main-source": true,
                         "type": "anitya",
                         "project-id": 141434,
                         "stable-only": true,
