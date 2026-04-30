@@ -138,6 +138,10 @@
                 {
                     "type": "patch",
                     "path": "0001-Find-QtCorePrivate.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-Fix-thread-null-access.patch"
                 }
             ]
         },
