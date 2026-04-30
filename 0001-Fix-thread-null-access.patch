@@ -1,0 +1,32 @@
+From dbabb387d789ef4c6687f59f86437bf593f891a7 Mon Sep 17 00:00:00 2001
+From: Joshua Goins <josh@redstrate.com>
+Date: Wed, 29 Apr 2026 19:31:20 -0400
+Subject: [PATCH] Fix null event ending up in Thread::addEvent
+
+This can happen if we chance come upon an event that can't be viewed as
+a RoomMessageEvent. Other call-sites of viewAs also check if null, but
+this one didn't.
+
+Fixes a crash seen in NeoChat 26.04 when running against libQuotient
+0.9.x.
+---
+ Quotient/room.cpp | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+diff --git a/Quotient/room.cpp b/Quotient/room.cpp
+index dada96dd6..cb34f68b2 100644
+--- a/Quotient/room.cpp
++++ b/Quotient/room.cpp
+@@ -1865,8 +1865,10 @@ void Room::Private::updateThread(const RoomEvent* event)
+         thread.threadRootId = rme->threadRootEventId();
+         // If we can't find the root we assume it's a historical event and will be loaded later.
+         if (auto rootIt = q->findInTimeline(thread.threadRootId); rootIt != historyEdge()) {
+-            thread.addEvent(rootIt->viewAs<RoomMessageEvent>(), true,
+-                            (*rootIt)->senderId() == connection->userId());
++            if (auto* messageEvent = rootIt->viewAs<RoomMessageEvent>()) {
++                thread.addEvent(messageEvent, true,
++                                (*rootIt)->senderId() == connection->userId());
++            }
+         }
+     }
+ 
