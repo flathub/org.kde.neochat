@@ -142,6 +142,10 @@
                 {
                     "type": "patch",
                     "path": "0001-Fix-thread-null-access.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-Fix-database-null-access.patch"
                 }
             ]
         },

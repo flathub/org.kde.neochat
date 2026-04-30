@@ -1,0 +1,93 @@
+From ef2c7c39efb8697f1c6e591486ea9167c525085d Mon Sep 17 00:00:00 2001
+From: Tobias Fella <tobias.fella@kde.org>
+Date: Wed, 8 Oct 2025 14:22:33 +0200
+Subject: [PATCH] Guard various functions against database being nullptr
+
+This is the case when e2ee has not been enabled
+
+(cherry picked from commit 1e9cc7a0c4ab4fe31326d4222cad69771d184c97)
+---
+ Quotient/connection.cpp | 28 ++++++++++++++++++++++++++++
+ 1 file changed, 28 insertions(+)
+
+diff --git a/Quotient/connection.cpp b/Quotient/connection.cpp
+index 9214fb046..8239004bb 100644
+--- a/Quotient/connection.cpp
++++ b/Quotient/connection.cpp
+@@ -1878,6 +1878,10 @@ void Connection::sendToDevice(const QString& targetUserId,
+ 
+ bool Connection::isVerifiedSession(const QByteArray& megolmSessionId) const
+ {
++    if (!d->encryptionData) {
++        return false;
++    }
++
+     auto query = database()->prepareQuery("SELECT olmSessionId FROM inbound_megolm_sessions WHERE sessionId=:sessionId;"_L1);
+     query.bindValue(":sessionId"_L1, megolmSessionId);
+     database()->execute(query);
+@@ -1911,6 +1915,10 @@ bool Connection::isVerifiedSession(const QByteArray& megolmSessionId) const
+ 
+ QString Connection::masterKeyForUser(const QString& userId) const
+ {
++    if (!d->encryptionData) {
++        return {};
++    }
++
+     auto query = database()->prepareQuery("SELECT key FROM master_keys WHERE userId=:userId"_L1);
+     query.bindValue(":userId"_L1, userId);
+     database()->execute(query);
+@@ -1919,6 +1927,10 @@ QString Connection::masterKeyForUser(const QString& userId) const
+ 
+ bool Connection::isUserVerified(const QString& userId) const
+ {
++    if (!d->encryptionData) {
++        return false;
++    }
++
+     auto query = database()->prepareQuery("SELECT verified FROM master_keys WHERE userId=:userId"_L1);
+     query.bindValue(":userId"_L1, userId);
+     database()->execute(query);
+@@ -1927,6 +1939,10 @@ bool Connection::isUserVerified(const QString& userId) const
+ 
+ bool Connection::isVerifiedDevice(const QString& userId, const QString& deviceId) const
+ {
++    if (!d->encryptionData) {
++        return false;
++    }
++
+     auto query = database()->prepareQuery("SELECT verified, selfVerified FROM tracked_devices WHERE deviceId=:deviceId AND matrixId=:matrixId;"_L1);
+     query.bindValue(":deviceId"_L1, deviceId);
+     query.bindValue(":matrixId"_L1, userId);
+@@ -1939,6 +1955,10 @@ bool Connection::isVerifiedDevice(const QString& userId, const QString& deviceId
+ 
+ bool Connection::isKnownE2eeCapableDevice(const QString& userId, const QString& deviceId) const
+ {
++    if (!d->encryptionData) {
++        return false;
++    }
++
+     auto query = database()->prepareQuery("SELECT verified FROM tracked_devices WHERE deviceId=:deviceId AND matrixId=:matrixId;"_L1);
+     query.bindValue(":deviceId"_L1, deviceId);
+     query.bindValue(":matrixId"_L1, userId);
+@@ -1981,6 +2001,10 @@ QStringList Connection::accountDataEventTypes() const
+ 
+ void Connection::startSelfVerification()
+ {
++    if (QUO_ALARM_X(!d->encryptionData, "Can't self-verify for connection that has not enabled e2ee")) {
++        return;
++    }
++
+     auto query = database()->prepareQuery("SELECT deviceId FROM tracked_devices WHERE matrixId=:matrixId AND selfVerified=1;"_L1);
+     query.bindValue(":matrixId"_L1, userId());
+     database()->execute(query);
+@@ -2009,6 +2033,10 @@ void Connection::startSelfVerification()
+ 
+ bool Connection::allSessionsSelfVerified(const QString& userId) const
+ {
++    if (!d->encryptionData) {
++        return false;
++    }
++
+     auto query = database()->prepareQuery("SELECT deviceId FROM tracked_devices WHERE matrixId=:matrixId AND selfVerified=0;"_L1);
+     query.bindValue(":matrixId"_L1, userId);
+     database()->execute(query);
