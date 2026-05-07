@@ -33,8 +33,7 @@
         "/mkspecs",
         "/share/app-info",
         "/share/kdevappwizard",
-        "/share/man",
-        "/share/qlogging-categories6"
+        "/share/man"
     ],
     "modules": [
         {
